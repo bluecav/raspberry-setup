@@ -13,10 +13,9 @@
 #! /bin/sh
 # /etc/init.d/vncboot
 
-USER=root
-HOME=/root
+USER=pi
 
-export USER HOME
+export USER
 
 case "$1" in
 start)
